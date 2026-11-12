@@ -1,0 +1,43 @@
+{
+  "model": "TF-IDF (char_wb 3-5, 50000 features) + LogisticRegression (C=0.5, balanced)",
+  "test_split": "80/20, random_state=42, stratified (same as src/train.py)",
+  "n_test": 319,
+  "n_labels": 10,
+  "points": [
+    {
+      "train_fraction": 0.1,
+      "n_train": 127,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.3292,
+      "test_f1_macro": 0.2646
+    },
+    {
+      "train_fraction": 0.25,
+      "n_train": 319,
+      "train_accuracy": 0.9937,
+      "test_accuracy": 0.4138,
+      "test_f1_macro": 0.3601
+    },
+    {
+      "train_fraction": 0.5,
+      "n_train": 638,
+      "train_accuracy": 0.9718,
+      "test_accuracy": 0.4796,
+      "test_f1_macro": 0.4151
+    },
+    {
+      "train_fraction": 0.75,
+      "n_train": 957,
+      "train_accuracy": 0.9363,
+      "test_accuracy": 0.489,
+      "test_f1_macro": 0.423
+    },
+    {
+      "train_fraction": 1.0,
+      "n_train": 1276,
+      "train_accuracy": 0.906,
+      "test_accuracy": 0.5266,
+      "test_f1_macro": 0.4595
+    }
+  ]
+}
