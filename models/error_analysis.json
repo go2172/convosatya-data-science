@@ -1,0 +1,422 @@
+{
+  "test_accuracy": 0.5266,
+  "n_test": 319,
+  "n_errors": 151,
+  "per_class": {
+    "Abdul Kalam": {
+      "precision": 0.4,
+      "recall": 0.444,
+      "f1": 0.421,
+      "support": 27,
+      "n_predicted": 30
+    },
+    "Abu Bakr (R.A)": {
+      "precision": 0.2,
+      "recall": 0.364,
+      "f1": 0.258,
+      "support": 11,
+      "n_predicted": 20
+    },
+    "Albert Einstein": {
+      "precision": 0.673,
+      "recall": 0.638,
+      "f1": 0.655,
+      "support": 58,
+      "n_predicted": 55
+    },
+    "Ali ibn Abi Talib (R.A)": {
+      "precision": 0.548,
+      "recall": 0.415,
+      "f1": 0.472,
+      "support": 41,
+      "n_predicted": 31
+    },
+    "Benjamin Franklin": {
+      "precision": 0.105,
+      "recall": 0.133,
+      "f1": 0.118,
+      "support": 15,
+      "n_predicted": 19
+    },
+    "Friedrich Nietzsche": {
+      "precision": 0.607,
+      "recall": 0.773,
+      "f1": 0.68,
+      "support": 22,
+      "n_predicted": 28
+    },
+    "Mark Twain": {
+      "precision": 0.5,
+      "recall": 0.286,
+      "f1": 0.364,
+      "support": 42,
+      "n_predicted": 24
+    },
+    "Muhammad Ali": {
+      "precision": 0.628,
+      "recall": 0.73,
+      "f1": 0.675,
+      "support": 37,
+      "n_predicted": 43
+    },
+    "Rumi": {
+      "precision": 0.643,
+      "recall": 0.735,
+      "f1": 0.686,
+      "support": 49,
+      "n_predicted": 56
+    },
+    "Umar ibn Al-Khattāb (R.A)": {
+      "precision": 0.308,
+      "recall": 0.235,
+      "f1": 0.267,
+      "support": 17,
+      "n_predicted": 13
+    }
+  },
+  "confusion_matrix_labels": [
+    "Abdul Kalam",
+    "Abu Bakr (R.A)",
+    "Albert Einstein",
+    "Ali ibn Abi Talib (R.A)",
+    "Benjamin Franklin",
+    "Friedrich Nietzsche",
+    "Mark Twain",
+    "Muhammad Ali",
+    "Rumi",
+    "Umar ibn Al-Khattāb (R.A)"
+  ],
+  "confusion_matrix": [
+    [
+      12,
+      1,
+      7,
+      0,
+      1,
+      1,
+      1,
+      3,
+      1,
+      0
+    ],
+    [
+      1,
+      4,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      1,
+      37,
+      1,
+      4,
+      6,
+      1,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      6,
+      0,
+      17,
+      4,
+      0,
+      3,
+      1,
+      4,
+      4
+    ],
+    [
+      3,
+      1,
+      0,
+      1,
+      2,
+      1,
+      1,
+      1,
+      4,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      0,
+      17,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      6,
+      1,
+      7,
+      1,
+      3,
+      2,
+      12,
+      4,
+      4,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      4,
+      27,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      3,
+      2,
+      1,
+      1,
+      4,
+      36,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      6,
+      3,
+      0,
+      0,
+      1,
+      0,
+      4
+    ]
+  ],
+  "top_confused_pairs": [
+    {
+      "true": "Abdul Kalam",
+      "predicted": "Albert Einstein",
+      "count": 7,
+      "share_of_true_class": 0.259
+    },
+    {
+      "true": "Mark Twain",
+      "predicted": "Albert Einstein",
+      "count": 7,
+      "share_of_true_class": 0.167
+    },
+    {
+      "true": "Albert Einstein",
+      "predicted": "Friedrich Nietzsche",
+      "count": 6,
+      "share_of_true_class": 0.103
+    },
+    {
+      "true": "Ali ibn Abi Talib (R.A)",
+      "predicted": "Abu Bakr (R.A)",
+      "count": 6,
+      "share_of_true_class": 0.146
+    },
+    {
+      "true": "Mark Twain",
+      "predicted": "Abdul Kalam",
+      "count": 6,
+      "share_of_true_class": 0.143
+    },
+    {
+      "true": "Umar ibn Al-Khattāb (R.A)",
+      "predicted": "Ali ibn Abi Talib (R.A)",
+      "count": 6,
+      "share_of_true_class": 0.353
+    },
+    {
+      "true": "Albert Einstein",
+      "predicted": "Benjamin Franklin",
+      "count": 4,
+      "share_of_true_class": 0.069
+    },
+    {
+      "true": "Ali ibn Abi Talib (R.A)",
+      "predicted": "Benjamin Franklin",
+      "count": 4,
+      "share_of_true_class": 0.098
+    },
+    {
+      "true": "Ali ibn Abi Talib (R.A)",
+      "predicted": "Rumi",
+      "count": 4,
+      "share_of_true_class": 0.098
+    },
+    {
+      "true": "Ali ibn Abi Talib (R.A)",
+      "predicted": "Umar ibn Al-Khattāb (R.A)",
+      "count": 4,
+      "share_of_true_class": 0.098
+    }
+  ],
+  "confidence": {
+    "mean_top1_confidence_correct": 0.176,
+    "mean_top1_confidence_wrong": 0.146,
+    "mean_top1_confidence_all": 0.162,
+    "median_top1_confidence_correct": 0.161,
+    "median_top1_confidence_wrong": 0.14
+  },
+  "threshold_table": [
+    {
+      "min_confidence": 0.0,
+      "coverage": 1.0,
+      "n_covered": 319,
+      "accuracy_on_covered": 0.527
+    },
+    {
+      "min_confidence": 0.1,
+      "coverage": 1.0,
+      "n_covered": 319,
+      "accuracy_on_covered": 0.527
+    },
+    {
+      "min_confidence": 0.2,
+      "coverage": 0.138,
+      "n_covered": 44,
+      "accuracy_on_covered": 0.886
+    },
+    {
+      "min_confidence": 0.3,
+      "coverage": 0.022,
+      "n_covered": 7,
+      "accuracy_on_covered": 1.0
+    },
+    {
+      "min_confidence": 0.4,
+      "coverage": 0.006,
+      "n_covered": 2,
+      "accuracy_on_covered": 1.0
+    },
+    {
+      "min_confidence": 0.5,
+      "coverage": 0.003,
+      "n_covered": 1,
+      "accuracy_on_covered": 1.0
+    }
+  ],
+  "per_class_mean_confidence_when_correct": {
+    "Abdul Kalam": 0.175,
+    "Abu Bakr (R.A)": 0.182,
+    "Albert Einstein": 0.176,
+    "Ali ibn Abi Talib (R.A)": 0.159,
+    "Benjamin Franklin": 0.152,
+    "Friedrich Nietzsche": 0.156,
+    "Mark Twain": 0.139,
+    "Muhammad Ali": 0.204,
+    "Rumi": 0.187,
+    "Umar ibn Al-Khattāb (R.A)": 0.182
+  },
+  "top_confidence_errors": [
+    {
+      "text": "Love your Enemies, for they tell you your Faults.",
+      "true": "Benjamin Franklin",
+      "predicted": "Rumi",
+      "confidence": 0.286
+    },
+    {
+      "text": "The best way to make your dreams come true is to wake up.",
+      "true": "Muhammad Ali",
+      "predicted": "Abdul Kalam",
+      "confidence": 0.221
+    },
+    {
+      "text": "Try as you may, you don't get down as you would from a horse, you get down as you would from a house afire. You make a spectacle of yourself every time.",
+      "true": "Mark Twain",
+      "predicted": "Rumi",
+      "confidence": 0.204
+    },
+    {
+      "text": "Applause Waits On Success.",
+      "true": "Benjamin Franklin",
+      "predicted": "Abdul Kalam",
+      "confidence": 0.204
+    },
+    {
+      "text": "To fight against one's desires is the greatest of all fights.",
+      "true": "Ali ibn Abi Talib (R.A)",
+      "predicted": "Abu Bakr (R.A)",
+      "confidence": 0.201
+    },
+    {
+      "text": "The death of a thousand worshipers is easier to bear than the death of a scholar who has knowledge of what Allah has permitted and forbidden.",
+      "true": "Umar ibn Al-Khattāb (R.A)",
+      "predicted": "Abu Bakr (R.A)",
+      "confidence": 0.196
+    },
+    {
+      "text": "Allah's the Arabic term for God. Stand up for God, fight for God, work for God and do the right thing, and go the right way, things will end up in your corner.",
+      "true": "Muhammad Ali",
+      "predicted": "Abu Bakr (R.A)",
+      "confidence": 0.189
+    },
+    {
+      "text": "Philosophy is empty if it isn't based on science. Science discovers, philosophy interprets.",
+      "true": "Albert Einstein",
+      "predicted": "Friedrich Nietzsche",
+      "confidence": 0.189
+    },
+    {
+      "text": "Perhaps the main motive behind my isolation was my desire to escape from the demands of relationships, which I consider very difficult in comparison to making rockets. All I desired was to be true to my way of life, to uphold the science of rocketry in my country and to retire with a clean conscience.",
+      "true": "Abdul Kalam",
+      "predicted": "Albert Einstein",
+      "confidence": 0.188
+    },
+    {
+      "text": "Words Are Only Painted Fire; A Look Is The Fire Itself.",
+      "true": "Mark Twain",
+      "predicted": "Rumi",
+      "confidence": 0.188
+    },
+    {
+      "text": "The Service you do for others is the rent you pay for your room here on Earth.",
+      "true": "Muhammad Ali",
+      "predicted": "Rumi",
+      "confidence": 0.185
+    },
+    {
+      "text": "If I can't picture it, I can't understand it.",
+      "true": "Albert Einstein",
+      "predicted": "Muhammad Ali",
+      "confidence": 0.18
+    },
+    {
+      "text": "Anger Is An Acid That Can Do More Harm To The Vessel In Which It Is Stored Than To Anything On Which It Is Poured.",
+      "true": "Mark Twain",
+      "predicted": "Albert Einstein",
+      "confidence": 0.178
+    },
+    {
+      "text": "What is politics? Political system is equal to development politics plus political politics.",
+      "true": "Abdul Kalam",
+      "predicted": "Albert Einstein",
+      "confidence": 0.177
+    },
+    {
+      "text": "For great men, religion is a way of making friends; small people make religion a fighting tool.",
+      "true": "Abdul Kalam",
+      "predicted": "Muhammad Ali",
+      "confidence": 0.177
+    }
+  ]
+}
